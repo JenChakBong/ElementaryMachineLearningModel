@@ -31,7 +31,7 @@ def tfidf(word,unfiltered,count_list):
     return tf(word,unfiltered)*idf(word,count_list)
 
 dic={}
-dirs = 'C:/Users/cs/Desktop/新建文件夹'
+dirs = 'C:/Users/cs/Desktop/新建文件夹'#路径按需求调整
 os.chdir(dirs)
 file_list = os.listdir(dirs)
 for i, filename in enumerate(file_list,1):
